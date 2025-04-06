@@ -1,0 +1,35 @@
+table {
+  width: 100%;
+}
+
+.mat-column-actions {
+  width: 120px;
+  text-align: center;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.update-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .mat-column-actions {
+    width: 100px;
+  }
+  
+  .mat-mdc-mini-fab {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+  }
+  
+  .mat-icon {
+    font-size: 18px;
+  }
+}
+

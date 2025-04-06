@@ -1,0 +1,16 @@
+.card-title {
+  margin-bottom: 20px;
+}
+
+.title-center {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    margin-bottom: 15px;
+  }
+}
+
